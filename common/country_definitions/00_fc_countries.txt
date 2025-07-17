@@ -25,7 +25,7 @@ NHA = { # Nahua
 }
 ZAC = { # Zacatecatl
 	color = { 160 168 50 }
-	country_type = unrecognized
+	country_type = decentralized
 	tier = city_state
 	
 	cultures = { zapotec }
@@ -80,7 +80,7 @@ TKA = { # Tikal
 	capital = STATE_GUATEMALA
 }
 PLE = { # Palenque
-	color = { 173 79 12 }
+	color = { 83 145 96 }
 	country_type = unrecognized
 	tier = city_state
 
@@ -118,4 +118,52 @@ TLA = { # Tlapan
 
 	cultures = { nahua }
 	capital = STATE_OAXACA
+}
+QEQ = { #K'iche
+	color = { 50 82 168 }
+	country_type = decentralized
+	tier = city_state
+
+	cultures = { mayan }
+	capital = STATE_GUATEMALA
+}
+MAM = { #Mam
+	color = { 114 102 173 }
+	country_type = decentralized
+	tier = city_state
+
+	cultures = { mayan }
+	capital = STATE_SAN_SALVADOR
+}
+JCQ = { #Jicaque
+	color = { 71 80 150 }
+	country_type = decentralized
+	tier = city_state
+
+	cultures = { mayan }
+	capital = STATE_HONDURAS
+}
+PCH = { #Pech
+	color = { 55 27 179 }
+	country_type = decentralized
+	tier = city_state
+
+	cultures = { mayan }
+	capital = STATE_HONDURAS
+}
+ULU = { #Ulúa
+	color = { 65 15 140 }
+	country_type = decentralized
+	tier = city_state
+
+	cultures = { mayan }
+	capital = STATE_NICARAGUA
+}
+CHR = { #Chorotega
+	color = { 15 65 65 }
+	country_type = decentralized
+	tier = city_state
+
+	cultures = { nahua mayan }
+	capital = STATE_NICARAGUA
 }

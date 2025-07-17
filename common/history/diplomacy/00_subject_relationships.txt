@@ -1,8 +1,14 @@
 ﻿DIPLOMACY = {
+	c:PUR ?= {
+		create_diplomatic_pact = {
+			country = c:HUS
+			type = vassal
+		}
+	}
 	c:SPA ?= {
 		create_diplomatic_pact = {
 			country = c:CUB
-			type = colony
+			type = chartered_company
 		}
 		create_diplomatic_pact = {
 			country = c:PHI
@@ -15,6 +21,10 @@
 
 	}
 	c:NET ?= {
+		create_diplomatic_pact = {
+			country = c:DCC
+			type = chartered_company
+		}
 		create_diplomatic_pact = {
 			country = c:LUX
 			type = personal_union
@@ -203,11 +213,6 @@
 		# Kaurna
 		create_diplomatic_pact = {
 			country = c:KAU
-			type = protectorate
-		}
-		# Mosquito Kingdom
-		create_diplomatic_pact = {
-			country = c:MKT
 			type = protectorate
 		}
 	}
@@ -538,7 +543,9 @@
 	c:BIC = {
 		add_liberty_desire = -30
 	}
-
+	c:DCC = {
+		add_liberty_desire = -30
+	}
 	c:DEI = {
 		add_liberty_desire = -30
 	}

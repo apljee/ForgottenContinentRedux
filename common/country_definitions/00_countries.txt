@@ -2035,7 +2035,7 @@ CUB = {
 	tier = principality
 
 	cultures = { caribeno }
-	capital = STATE_CUBA
+	capital = STATE_WEST_INDIES
 	is_named_from_capital = yes
 }
 

@@ -1,6 +1,6 @@
 ﻿POPS = {
 	s:STATE_SAN_SALVADOR = {
-		region_state:UCA = {
+		region_state:MAM = {
 			create_pop = {
 				culture = central_american
 				size = 428204
@@ -8,14 +8,10 @@
 		}
 	}
 	s:STATE_GUATEMALA = {
-		region_state:UCA = {
-			create_pop = {
-				culture = central_american
-				size = 164404
-			}
+		region_state:QEQ = {
 			create_pop = {
 				culture = mayan
-				size = 312000
+				size = 432000
 			}
 		}
 		region_state:TKA = {
@@ -32,26 +28,40 @@
 		}
 	}
 	s:STATE_HONDURAS = {
-		region_state:UCA = {
+		region_state:MKT = {
 			create_pop = {
-				culture = central_american
+				culture = miskito
 				size = 385204
 			}
+		}
+		region_state:PCH = {
 			create_pop = {
-				culture = miskito # Cape of Gracias a Dios Miskito
-				size = 3000
+				culture = mayan
+				size = 238122
+			}
+		}
+		region_state:JCQ = {
+			create_pop = {
+				culture = mayan
+				size = 187530
 			}
 		}
 	}
 	s:STATE_NICARAGUA = {
-		region_state:UCA = {
+		region_state:CHR = {
 			create_pop = {
-				culture = central_american
-				size = 284000
+				culture = nahua
+				size = 26000
 			}
 			create_pop = {
-				culture = miskito # Miskito pop. across the 'borders'
-				size = 4000
+				culture = mayan
+				size = 37830
+			}
+		}
+		region_state:ULU = {
+			create_pop = {
+				culture = mayan
+				size = 44800
 			}
 		}
 		region_state:MKT = {
@@ -61,30 +71,12 @@
 			}
 			create_pop = {
 				culture = miskito
-				religion = protestant
-				size = 10000
-			}
-			create_pop = {
-				culture = afro_caribbean # Miskito Sambu
-				size = 20000
-			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 500
-			}
-			create_pop = {
-				culture = british
-				size = 500
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_caribeno
-				size = 1000
+				size = 288000
 			}
 		}
 	}
 	s:STATE_COSTA_RICA = {
-		region_state:UCA = {
+		region_state:CHR = {
 			create_pop = {
 				culture = central_american
 				size = 83992
@@ -118,7 +110,7 @@
 	}
 	# Haitian and Dominican population numbers are based off 1850 numbers from "La población de América Latina" by Nicolás Sánchez-Albornoz, scaled back 8,5% to account for approx. population growth.
 	s:STATE_HAITI = {
-		region_state:NET = {
+		region_state:DCC = {
 			create_pop = { 
 				culture = dutch
 				size = 230824
@@ -126,7 +118,7 @@
 		}
 	}
 	s:STATE_SANTO_DOMINGO = {
-		region_state:NET = {
+		region_state:DCC = {
 			create_pop = {
 				culture = dutch
 				size = 120626
@@ -161,7 +153,7 @@
 				size = 22200
 			}
 		}
-		region_state:NET = {
+		region_state:DCC = {
 			create_pop = {
 				culture = dutch
 				size = 44810
@@ -169,7 +161,7 @@
 		}
 	}
 	s:STATE_WEST_INDIES = {
-		region_state:SPA = {
+		region_state:CUB = {
 			create_pop = {
 				culture = spanish
 				size = 41200
@@ -193,7 +185,7 @@
 		}
 	}
 	s:STATE_CUBA = {
-		region_state:NET = {
+		region_state:DCC = {
 			# 896400
 			create_pop = {
 				culture = dutch

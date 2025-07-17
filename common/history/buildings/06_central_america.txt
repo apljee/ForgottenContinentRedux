@@ -1,67 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_SAN_SALVADOR={
-		region_state:UCA={
-			create_building={
-				building="building_government_administration"
-				add_ownership={
-					country={
-						country="c:UCA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_organization" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
-			}
-			create_building={
-				building="building_textile_mills"
-				add_ownership={
-					building={
-						type="building_textile_mills"
-						country="c:UCA"
-						levels=1
-						region="STATE_SAN_SALVADOR"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms"  }
-			}
-			create_building={
-				building="building_maize_farm"
-				add_ownership={
-					building={
-						type="building_maize_farm"
-						country="c:UCA"
-						levels=1
-						region="STATE_SAN_SALVADOR"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
-			}
-			create_building={
-				building="building_livestock_ranch"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:UCA"
-						levels=1
-						region="STATE_SAN_SALVADOR"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
-			}
-			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:UCA"
-						levels=2
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
+		region_state:MAM={
 		}
 	}
 	s:STATE_GUATEMALA={
@@ -117,13 +56,13 @@
 		}
 	}
 	s:STATE_HONDURAS={
-		region_state:UCA={
+		region_state:MKT={
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
 					building={
 						type="building_maize_farm"
-						country="c:UCA"
+						country="c:MKT"
 						levels=1
 						region="STATE_HONDURAS"
 					}
@@ -136,7 +75,7 @@
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:UCA"
+						country="c:MKT"
 						levels=1
 						region="STATE_HONDURAS"
 					}
@@ -148,7 +87,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:UCA"
+						country="c:MKT"
 						levels=1
 					}
 				}
@@ -159,7 +98,7 @@
 				building="building_barracks"
 				add_ownership={
 					country={
-						country="c:UCA"
+						country="c:MKT"
 						levels=2
 					}
 				}
@@ -169,45 +108,6 @@
 		}
 	}
 	s:STATE_NICARAGUA={
-		region_state:UCA={
-			create_building={
-				building="building_tobacco_plantation"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:UCA"
-						levels=1
-						region="STATE_NICARAGUA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
-			}
-			create_building={
-				building="building_banana_plantation"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:UCA"
-						levels=1
-						region="STATE_NICARAGUA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_banana_plantation" "pm_road_carts"  }
-			}
-			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:UCA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
-		}
 		region_state:MKT={
 			create_building={
 				building="building_barracks"
@@ -219,6 +119,19 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
+			}
+			create_building={
+				building="building_maize_farm"
+				add_ownership={
+					building={
+						type="building_maize_farm"
+						country="c:MKT"
+						levels=2
+						region="STATE_NICARAGUA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
 			}
 			create_building={
 				building="building_port"
@@ -234,31 +147,7 @@
 		}
 	}
 	s:STATE_COSTA_RICA={
-		region_state:UCA={
-			create_building={
-				building="building_coffee_plantation"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:UCA"
-						levels=1
-						region="STATE_COSTA_RICA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts"  }
-			}
-			create_building={
-				building="building_barracks"
-				add_ownership={
-					country={
-						country="c:UCA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
+		region_state:CHR={
 		}
 	}
 	s:STATE_PANAMA={
@@ -292,12 +181,12 @@
 		}
 	}
 	s:STATE_HAITI={
-		region_state:NET={
+		region_state:DCC={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:NET"
+						country="c:DCC"
 						levels=1
 					}
 				}
@@ -310,7 +199,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:NET"
+						country="c:DCC"
 						levels=1
 						region="STATE_HAITI"
 					}
@@ -322,7 +211,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:DCC"
 						levels=2
 						region="STATE_HAITI"
 					}
@@ -335,7 +224,7 @@
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:NET"
+						country="c:DCC"
 						levels=1
 						region="STATE_HAITI"
 					}
@@ -348,7 +237,7 @@
 				add_ownership={
 					building={
 						type="building_rice_farm"
-						country="c:NET"
+						country="c:DCC"
 						levels=1
 						region="STATE_HAITI"
 					}
@@ -360,7 +249,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:NET"
+						country="c:DCC"
 						levels=1
 					}
 				}
@@ -370,13 +259,13 @@
 		}
 	}
 	s:STATE_SANTO_DOMINGO={
-		region_state:NET={
+		region_state:DCC={
 			create_building={
 				building="building_tobacco_plantation"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:DCC"
 						levels=1
 						region="STATE_SANTO_DOMINGO"
 					}
@@ -389,7 +278,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:DCC"
 						levels=1
 						region="STATE_SANTO_DOMINGO"
 					}
@@ -402,7 +291,7 @@
 				add_ownership={
 					building={
 						type="building_rice_farm"
-						country="c:NET"
+						country="c:DCC"
 						levels=1
 						region="STATE_SANTO_DOMINGO"
 					}
@@ -414,7 +303,7 @@
 				building="building_barracks"
 				add_ownership={
 					country={
-						country="c:NET"
+						country="c:DCC"
 						levels=2
 					}
 				}
@@ -425,7 +314,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:NET"
+						country="c:DCC"
 						levels=1
 					}
 				}
@@ -435,14 +324,14 @@
 		}
 	}
 	s:STATE_PUERTO_RICO={
-		region_state:SPA={
+		region_state:CUB={
 			create_building={
 				building="building_trade_center"
 				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:SPA"
+						country="c:CUB"
 						levels=1
 						region="STATE_PUERTO_RICO"
 					}
@@ -454,7 +343,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SPA"
+						country="c:CUB"
 						levels=2
 						region="STATE_PUERTO_RICO"
 					}
@@ -467,7 +356,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SPA"
+						country="c:CUB"
 						levels=1
 						region="STATE_PUERTO_RICO"
 					}
@@ -480,7 +369,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SPA"
+						country="c:CUB"
 						levels=3
 						region="STATE_PUERTO_RICO"
 					}
@@ -493,7 +382,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SPA"
+						country="c:CUB"
 						levels=3
 						region="STATE_PUERTO_RICO"
 					}
@@ -505,7 +394,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:SPA"
+						country="c:CUB"
 						levels=1
 					}
 				}
@@ -515,13 +404,13 @@
 		}
 	}
 	s:STATE_BAHAMAS={
-		region_state:NET={
+		region_state:DCC={
 			create_building={
 				building="building_banana_plantation"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:DCC"
 						levels=1
 						region="STATE_BAHAMAS"
 					}
@@ -534,7 +423,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:DCC"
 						levels=1
 						region="STATE_BAHAMAS"
 					}
@@ -546,7 +435,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:NET"
+						country="c:DCC"
 						levels=1
 					}
 				}
@@ -554,12 +443,12 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:NET = {
+		region_state:DCC = {
 			create_building={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:NET"
+						country="c:DCC"
 						levels=1
 					}
 				}
@@ -572,7 +461,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:NET"
+						country="c:DCC"
 						levels=1
 					}
 				}
@@ -722,22 +611,22 @@
 		}
 	}
 	s:STATE_CUBA={
-		region_state:NET={
+		region_state:DCC={
 			create_building={
 				building="building_trade_center"
 				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:NET"
+						country="c:DCC"
 						levels=2
 						region="STATE_CUBA"
 					}
 					building={
 						type="building_financial_district"
-						country="c:SPA"
+						country="c:DCC"
 						levels=2
-						region="STATE_TOLEDO"
+						region="STATE_CUBA"
 					}
 				}
 				reserves=1
@@ -747,7 +636,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:DCC"
 						levels=5
 						region="STATE_CUBA"
 					}
@@ -760,13 +649,13 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:DCC"
 						levels=1
 						region="STATE_CUBA"
 					}
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:DCC"
 						levels=2
 						region="STATE_CUBA"
 					}
@@ -779,13 +668,13 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:DCC"
 						levels=2
 						region="STATE_CUBA"
 					}
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:DCC"
 						levels=3
 						region="STATE_TOLEDO"
 					}
@@ -798,13 +687,13 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:DCC"
 						levels=5
 						region="STATE_CUBA"
 					}
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:DCC"
 						levels=5
 						region="STATE_TOLEDO"
 					}
@@ -816,7 +705,7 @@
 				building="building_barracks"
 				add_ownership={
 					country={
-						country="c:NET"
+						country="c:DCC"
 						levels=5
 					}
 				}
@@ -827,7 +716,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:NET"
+						country="c:DCC"
 						levels=2
 					}
 				}

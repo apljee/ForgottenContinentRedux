@@ -14,3 +14,11 @@ SCS = { # Costa Seda
 	cultures = { spanish }
 	capital = STATE_SOUTH_CAMEROON
 }
+DCC = { # Dutch Caribbean Company
+	color = { 252 127 0 }
+	country_type = colonial
+	tier = principality
+
+	cultures = { dutch }
+	capital = STATE_CUBA
+}

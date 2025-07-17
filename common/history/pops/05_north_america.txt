@@ -1352,16 +1352,6 @@ POPS = {
 				size = 2004
 			}
 		}
-		region_state:MEX = {
-			create_pop = {
-				culture = oodham
-				size = 12000
-			}
-			create_pop = {
-				culture = mexican
-				size = 3000
-			}
-		}
 		region_state:COM = {
 			create_pop = {
 				culture = comanche
@@ -1500,12 +1490,6 @@ POPS = {
 		}
 	}
 	s:STATE_RIO_GRANDE = { # Coahuila, Nuevo Leon and Tamaulipas. est. pop 182352 in 1830, 266647 in 1840
-		region_state:MEX = {
-			create_pop = {
-				culture = mexican
-				size = 121499
-			}
-		}
 		region_state:TEN = {
 			create_pop = {
 				culture = nahua
@@ -1518,16 +1502,10 @@ POPS = {
 				size = 57812
 			}
 		}
-		region_state:HUS = {
-			create_pop = {
-				culture = nahua
-				size = 39122
-			}
-		}
 		region_state:PUR = {
 			create_pop = {
 				culture = tarascan
-				size = 98478
+				size = 128478
 			}
 		}
 				
@@ -1672,6 +1650,12 @@ POPS = {
 				size = 60846
 			}
 		}
+		region_state:PUR = {
+			create_pop = {
+				culture = tarascan
+				size = 82921
+			}
+		}
 	}
 	s:STATE_OAXACA = { # approx 479674. 457504 in 1830, 501844 in 1840.
 		region_state:AZT = {
@@ -1688,6 +1672,12 @@ POPS = {
 			create_pop = {
 				culture = zapotec
 				size = 187073
+			}
+		}
+		region_state:TLA = {
+			create_pop = {
+				culture = nahua
+				size = 127892
 			}
 		}
 	}
