@@ -1,0 +1,16 @@
+VIN = { # Vinland
+	color = { 245 245 245 }
+	country_type = colonial
+	tier = principality
+	
+	cultures = { vinlandic }
+	capital = STATE_NEWFOUNDLAND
+}
+SCS = { # Costa Seda
+	color = { 245 239 66 }
+	country_type = colonial
+	tier = kingdom
+	
+	cultures = { spanish }
+	capital = STATE_SOUTH_CAMEROON
+}

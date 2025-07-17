@@ -1,0 +1,13 @@
+{
+  "name" : "The Forgotten Continent - Redux 0.1",
+  "picture" : "thumbnail.png",
+	"id" : "",
+  "version" : "",
+  "supported_game_version" : "1.9.*",
+  "short_description" : "",
+  "tags" : [],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}

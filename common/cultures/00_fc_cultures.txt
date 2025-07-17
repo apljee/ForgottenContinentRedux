@@ -1,0 +1,175 @@
+﻿afro_sedero= {
+	color= hsv{ 0.33 0.45 0.32 }
+	religion = catholic
+	traits = { african_heritage hispanophone }
+	male_common_first_names = {
+		Antonio
+		Armando
+		Arsenio
+		Arturo
+		Bartolome
+		Carlos
+		Damaso
+		Enrique
+		Francisco
+		Generoso
+		Guillermo
+		Gumersindo
+		Ignacio
+		Israel
+		Jacinto
+		Jaime
+		Jose_Celso
+		Juan
+		Luciano
+		Mario
+		Maximo
+		Nelson
+		Nicolas_2
+		Orestes
+		Orlando
+		Pedro
+		Pio
+		Ramon
+		Ruben_2
+		Wifredo
+	}
+	female_common_first_names = {
+		Ana
+		Angelamaria
+		Carlota
+		Isabel
+		Josefina
+		Luz
+		Maria
+		Mercedes
+		Milagros
+		Olivia
+		Palmira
+		Paula
+		Trinidad
+		Ulpiana
+		Victoria
+	}
+	noble_last_names = {
+		Batista
+		Colon
+		de_Gordils
+		Maceo
+		Macias
+		de_Cespedes
+		de_Merino
+		de_Rojas
+		de_la_Rosa
+		de_Ortega
+		de_la_Torre
+	}
+	common_last_names = {
+		Albizu
+		Barbosa
+		Barreto
+		Bauza
+		Diaz_2
+		Egues
+		Estupinan
+		Garay
+		Gonzalez
+		Guillen
+		Gutierrez
+		Hurtado
+		Jimenez
+		Jorrin
+		Lam
+		Leyva
+		Lopez
+		Maceo
+		Morel
+		More
+		Peraza
+		Pineiro
+		Pozo
+		Perez
+		Repilado
+		Rodriguez
+		Santamaria
+		Schomburg
+		Valdes
+		Villa
+	}
+	ethnicities = {
+		1 = african
+	}
+	graphics = african
+}
+vinlandic= {
+	color= hsv{ 0.74 0.46 0.58 }
+	religion = protestant
+	traits = { scandinavian_culture_group european_heritage }
+	male_common_first_names = {
+		Agnar
+		Bjorn_2
+		Eidur
+		Einar
+		Emil
+		Geir
+		Gudmund
+		Gunnar
+		Hannes
+		Hermann
+		J_On
+		Kristjan
+		Magnus_2
+		Petur
+		Sigurdur
+		Stefan_2
+		Sveinn
+		Tryggvi
+		Asgeir
+		Olafur
+		Steingrimur
+		Hallgrimur
+	}
+	female_common_first_names = {
+		Agnes
+		Briet
+		Hansina
+		Regina
+		Rosa
+		Steinunn
+		Thorfhildur
+		Vilhelmina
+	}
+	noble_last_names = {
+		Hielmstierne
+		Petursson
+		Sveinsson
+		Thorberg
+		Thordersen
+		Vidalin
+	}
+	common_last_names = {
+		Arnorsson
+		Benediktsson
+		Bjarnasen
+		Bjornsson
+		Eggers
+		Eldjarn
+		Hafstein
+		Hansen
+		Hermannsson
+		Johanesson
+		Jonsson
+		Magnusson
+		Stefansson
+		Steinthosson
+		Thorlaksson
+		Thurs
+		Thordarson
+		Thorhallson
+		Asgeirsson
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}

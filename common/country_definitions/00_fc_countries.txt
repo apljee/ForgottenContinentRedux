@@ -1,0 +1,129 @@
+AZT = { # Aztec
+	color = { 32 201 72 }
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { nahua mixtec zapotec }
+	capital = STATE_MEXICO
+}
+PUR = { # Purepecha
+	color = { 189 42 13 }
+	country_type = unrecognized
+	tier = kingdom
+	
+	cultures = { tarascan }
+	capital = STATE_JALISCO
+}
+NHA = { # Nahua
+	color = { 181 29 54 }
+	country_type = decentralized
+	tier = city_state
+	
+	cultures = { nahua }
+	capital = STATE_JALISCO
+}
+ZAC = { # Zacatecatl
+	color = { 160 168 50 }
+	country_type = unrecognized
+	tier = city_state
+	
+	cultures = { zapotec }
+	capital = STATE_ZACATECAS
+}
+TEN = { # Tenek
+	color = { 232 216 39 }
+	country_type = decentralized
+	tier = city_state
+	
+	cultures = { nahua }
+	capital = STATE_RIO_GRANDE
+}
+MIC = { # Michoacan
+	color = { 212 74 106 }
+	country_type = decentralized
+	tier = city_state
+	
+	cultures = { nahua }
+	capital = STATE_JALISCO
+}
+HUA = { # Huachilchil
+	color = { 178 115 217}
+	country_type = decentralized
+	tier = city_state
+
+	cultures = { nahua }
+	capital = STATE_RIO_GRANDE
+}
+COA = { # Coahuilteca
+	color = { 168 128 35 }
+	country_type = decentralized
+	tier = city_state
+
+	cultures = { nahua }
+	capital = STATE_TEXAS
+}
+TBO = { #Toboso
+	color = { 35 158 101 }
+	country_type = decentralized
+	tier = city_state
+	
+	cultures = { nahua }
+	capital = STATE_RIO_GRANDE
+}
+ITZ = { # Itza
+	color = { 32 153 133 }
+	country_type = unrecognized
+	tier = city_state
+
+	cultures = { mayan }
+	capital = STATE_YUCATAN
+}
+TKA = { # Tikal
+	color = { 209 199 119 }
+	country_type = unrecognized
+	tier = city_state
+
+	cultures = { mayan }
+	capital = STATE_GUATEMALA
+}
+PLE = { # Palenque
+	color = { 49 107 47 }
+	country_type = unrecognized
+	tier = city_state
+
+	cultures = { mayan }
+	capital = STATE_CHIAPAS
+}
+TZO = { # Tzotzil
+	color = { 105 117 84 }
+	country_type = unrecognized
+	tier = city_state
+
+	cultures = { mayan }
+	capital = STATE_CHIAPAS
+}
+ZAP = { # Zapotec
+	color = { 196 174 45 }
+	country_type = unrecognized
+	tier = city_state
+
+	cultures = { zapotec nahua }
+	capital = STATE_OAXACA
+}
+HUS = { # Huasatec
+	color = { 104 50 158 }
+	country_type = unrecognized
+	tier = city_state
+
+	cultures = { nahua }
+	capital = STATE_VERACRUZ
+}
+TLA = { # Tlapan
+	color = { 215 252 169 }
+	country_type = unrecognized
+	tier = city_state
+
+	cultures = { nahua }
+	capital = STATE_OAXACA
+}
