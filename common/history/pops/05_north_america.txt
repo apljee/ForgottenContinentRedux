@@ -1512,6 +1512,24 @@ POPS = {
 				size = 103004
 			}
 		}
+		region_state:HUA = {
+			create_pop = {
+				culture = nahua
+				size = 57812
+			}
+		}
+		region_state:HUS = {
+			create_pop = {
+				culture = nahua
+				size = 39122
+			}
+		}
+		region_state:PUR = {
+			create_pop = {
+				culture = tarascan
+				size = 98478
+			}
+		}
 				
 	}
 	s:STATE_VERACRUZ = { # 242658 in 1830, 259463 in 1840
@@ -1535,6 +1553,12 @@ POPS = {
 			create_pop = {
 				culture = mayan
 				size = 77836
+			}
+		}
+		region_state:NET = {
+			create_pop = {
+				culture = dutch
+				size = 11540
 			}
 		}
 	}
@@ -1673,24 +1697,14 @@ POPS = {
 	# working total of 1190162
 	# 1.5858
 	s:STATE_JALISCO = {
-		region_state:MIC = {
-			create_pop = {
-				culture = nahua
-				size = 84633
-			}
-		}
 		region_state:PUR = {
 			create_pop = {
 				culture = tarascan
-				size = 798182
+				size = 898182
 			}
 			create_pop = {
 				culture = nahua
 				size = 26373
-			}
-			create_pop = {
-				culture = zapotec
-				size = 122078
 			}
 		}
 		region_state:NHA = {
@@ -1716,6 +1730,12 @@ POPS = {
 			create_pop = {
 				culture = nahua
 				size = 175961
+			}
+		}
+		region_state:PUR = {
+			create_pop = {
+				culture = tarascan
+				size = 177843
 			}
 		}
 	}

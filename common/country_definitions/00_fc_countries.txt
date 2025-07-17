@@ -1,5 +1,5 @@
 AZT = { # Aztec
-	color = { 32 201 72 }
+	color = { 49 107 47 }
 	country_type = unrecognized
 	
 	tier = kingdom
@@ -8,7 +8,7 @@ AZT = { # Aztec
 	capital = STATE_MEXICO
 }
 PUR = { # Purepecha
-	color = { 189 42 13 }
+	color = { 143 0 0 }
 	country_type = unrecognized
 	tier = kingdom
 	
@@ -38,14 +38,6 @@ TEN = { # Tenek
 	
 	cultures = { nahua }
 	capital = STATE_RIO_GRANDE
-}
-MIC = { # Michoacan
-	color = { 212 74 106 }
-	country_type = decentralized
-	tier = city_state
-	
-	cultures = { nahua }
-	capital = STATE_JALISCO
 }
 HUA = { # Huachilchil
 	color = { 178 115 217}
@@ -88,7 +80,7 @@ TKA = { # Tikal
 	capital = STATE_GUATEMALA
 }
 PLE = { # Palenque
-	color = { 49 107 47 }
+	color = { 173 79 12 }
 	country_type = unrecognized
 	tier = city_state
 
@@ -96,7 +88,7 @@ PLE = { # Palenque
 	capital = STATE_CHIAPAS
 }
 TZO = { # Tzotzil
-	color = { 105 117 84 }
+	color = { 68 69 63 }
 	country_type = unrecognized
 	tier = city_state
 
@@ -120,7 +112,7 @@ HUS = { # Huasatec
 	capital = STATE_VERACRUZ
 }
 TLA = { # Tlapan
-	color = { 215 252 169 }
+	color = { 133 138 117 }
 	country_type = unrecognized
 	tier = city_state
 
