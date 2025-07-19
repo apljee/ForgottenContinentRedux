@@ -3105,38 +3105,6 @@ BUILDINGS={
 		}
 	}
 	s:STATE_TEXAS={
-		region_state:TEX={
-			create_building={
-				building="building_maize_farm"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:TEX"
-						levels=1
-						region="STATE_TEXAS"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
-			}
-			create_building={
-				building="building_vineyard_plantation"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:TEX"
-						levels=1
-						region="STATE_TEXAS"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation" "pm_road_carts"  }
-			}
-		}
-		region_state:MEX={
-		}
-		region_state:COM={
-		}
 	}
 	s:STATE_NEVADA={
 		region_state:MEX={

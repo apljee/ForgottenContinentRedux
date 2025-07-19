@@ -1329,37 +1329,40 @@ POPS = {
 		}
 	}
 	s:STATE_TEXAS = {
-		region_state:TEX = {
-			create_pop = {
-				culture = dixie
-				size = 42224
-			}
-			create_pop = {
-				culture = siouan
-				size = 1996
-			}
+		region_state:WIC = {
 			create_pop = {
 				culture = caddoan
-				size = 4000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 6040
-			}
-			create_pop = {
-				culture = mexican
-				size = 2004
+				size = 94224
 			}
 		}
 		region_state:COM = {
 			create_pop = {
 				culture = comanche
-				size = 18000
+				size = 68000
 			}
 			create_pop = {
 				culture = apache
-				size = 4000
+				size = 34000
+			}
+		}
+		region_state:JUM = {
+			create_pop = {
+				culture = comanche
+				size = 57550
+			}
+			create_pop = {
+				culture = apache
+				size = 13390
+			}
+		}
+		region_state:KAR = {
+			create_pop = {
+				culture = comanche
+				size = 44030
+			}
+			create_pop = {
+				culture = apache
+				size = 14300
 			}
 		}
 	}
@@ -1414,9 +1417,15 @@ POPS = {
 		}
 	}
 	s:STATE_NEW_MEXICO = {
-		region_state:MEX = {
+		region_state:JUM = {
 			create_pop = {
-				culture = mexican
+				culture = comanche
+				size = 14820
+			}
+		}
+		region_state:ZUN = {
+			create_pop = {
+				culture = pueblo
 				size = 27796
 			}
 			create_pop = {
@@ -1474,18 +1483,22 @@ POPS = {
 		}
 	}
 	s:STATE_CHIHUAHUA = { # total population: 132189 (1830), 147600 (1840)
-		region_state:MEX = {
-			create_pop = {
-				culture = mexican
-				size = 139895
-			}
-			create_pop = {
-				culture = oodham
-				size = 8000
-			}
+		region_state:CRC = {
 			create_pop = {
 				culture = apache
-				size = 16000
+				size = 139895
+			}
+		}
+		region_state:NTP = {
+			create_pop = {
+				culture = oodham
+				size = 64000
+			}
+		}
+		region_state:STP = {
+			create_pop = {
+				culture = oodham
+				size = 13994
 			}
 		}
 	}
@@ -1507,6 +1520,12 @@ POPS = {
 				culture = tarascan
 				size = 128478
 			}
+		}
+		region_state:TBO = {
+			create_pop = {
+				culture = nahua
+				size = 88673
+			}			
 		}
 				
 	}
@@ -1541,34 +1560,22 @@ POPS = {
 		}
 	}
 	s:STATE_DURANGO = { # est. total of 156999. 153810 in 1830, 160187 in 1840
-		region_state:MEX = {
-			create_pop = {
-				culture = mexican
-				size = 136199
-			}
+		region_state:STP = {
 			create_pop = {
 				culture = oodham
-				size = 20000
-			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 800
+				size = 136199
 			}
 		}
 	}
 	s:STATE_SINALOA = { # est. total of 134941. 122285 in 1830, 147596 in 1840
-		region_state:MEX = {
+		region_state:CAH = {
 			create_pop = {
-				culture = mexican
+				culture = nahua
 				size = 113841
 			}
 			create_pop = {
 				culture = oodham
 				size = 20000
-			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 1100
 			}
 		}
 	}

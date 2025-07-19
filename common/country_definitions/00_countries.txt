@@ -2647,7 +2647,7 @@ LKT = {
 NVJ = {
 	color = { 126 180 154 }
 
-	country_type = decentralized
+	country_type = unrecognized
 
 	tier = principality
 

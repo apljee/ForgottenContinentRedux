@@ -167,3 +167,67 @@ CHR = { #Chorotega
 	cultures = { nahua mayan }
 	capital = STATE_NICARAGUA
 }
+KAR = { # Karankawa
+	color = { 199 156 76 }
+	country_type = decentralized
+	tier = city_state
+
+	cultures = { comanche }
+	capital = STATE_TEXAS
+}
+JUM = { #Jumano
+	color = { 181 123 72 }
+	country_type = decentralized
+	tier = city_state
+
+	cultures = { apache comanche }
+	capital = STATE_TEXAS
+}
+WIC = { #Wichita
+	color = { 213 172 230 }
+	country_type = decentralized
+	tier = city_state
+	
+	cultures = { caddoan }
+	capital = STATE_TEXAS
+}
+NTP = { #Ódami / North Tepehuan
+	color = { 125 255 0 }
+	country_type =  decentralized
+	tier = city_state
+
+	cultures = { nahua }
+	capital = STATE_CHIHUAHUA
+}
+STP = { #O'dam / South Tepehuan 
+	color = { 255 125 0 }
+	country_type = decentralized
+	tier = city_state
+
+	cultures = { nahua }
+	capital = STATE_DURANGO
+}
+CRC = { #Chiricahua
+	color = { 136 147 76 }
+	country_type = decentralized
+	tier = city_state
+
+	cultures = { apache }
+	capital = STATE_CHIHUAHUA
+}
+CAH = { #Cahita
+	color = { 44 188 44 }
+	country_type = decentralized
+	tier = city_state
+
+	cultures = { nahua }
+	capital = STATE_SINALOA
+}
+ZUN = { #Zuñi
+	color = { 98 68 20 }
+	country_type = decentralized
+	tier = city_state
+
+	cultures = { pueblo }
+	capital = STATE_NEW_MEXICO
+}

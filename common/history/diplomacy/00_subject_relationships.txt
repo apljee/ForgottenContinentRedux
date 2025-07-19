@@ -26,14 +26,6 @@
 			type = chartered_company
 		}
 		create_diplomatic_pact = {
-			country = c:LUX
-			type = personal_union
-		}
-		create_diplomatic_pact = {
-			country = c:LUX
-			type = grant_own_market
-		}
-		create_diplomatic_pact = {
 			country = c:DEI
 			type = dominion
 		}
